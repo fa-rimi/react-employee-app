@@ -1,5 +1,6 @@
 import "../App.css";
 import Header from "../components/Header";
+import Employee from "../components/Employee";
 
 function EmployeePage() {
   //! I forgot to add return at first and my Employee Page would not display
@@ -7,6 +8,7 @@ function EmployeePage() {
 
   <div className="employee-pg">
     <Header/>
+    <Employee/>
     {console.log("EmployeePage is connected!")}
   </div>
 

@@ -32,23 +32,21 @@ body {
 .employee-pg {
   width: 50%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 5px 0 5px;
 
   /* margin: 10px; */
   border: var(--border-light);
 }
 
-.home-pg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .header-section {
   width: 100%;
-  height: 50px;
+  height: 60px !important;
 
   border: var(--border-light);
+  text-align: center;
 }
 
 .search-bar input {
@@ -60,8 +58,17 @@ body {
 }
 
 .employee-list {
-  height: 100%;
+  height: 590px;
   width: 100%;
 
   border: var(--border-light);
+}
+
+.employee-info {
+  width: 380px;
+  height: 480px;
+  margin: 10px;
+
+  border: var(--border-light);
+  border-radius: 5px;
 }
