@@ -28,7 +28,8 @@ body {
   border: var(--border-bold);
 }
 
-.home-pg, .employee-pg {
+.home-pg,
+.employee-pg {
   width: 50%;
   height: 100%;
   margin: 0 5px 0 5px;
@@ -37,9 +38,23 @@ body {
   border: var(--border-light);
 }
 
+.home-pg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-section {
   width: 100%;
   height: 50px;
 
+  border: var(--border-light);
+}
+
+.search-bar input {
+  width: 375px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 10px;
   border: var(--border-light);
 }
