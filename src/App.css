@@ -58,3 +58,10 @@ body {
   border-radius: 10px;
   border: var(--border-light);
 }
+
+.employee-list {
+  height: 100%;
+  width: 100%;
+
+  border: var(--border-light);
+}
