@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// * The main App consist of 2 main components -> Left: HomePage & Right: EmployeePage
+import "./App.css"; // importing styling
+import HomePage from "../src/components/HomePage"; // left side: import the homepage component
+import EmployeePage from "../src/components/EmployeePage"; // right side: import the employeepage component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App">
+      <HomePage />
+      <EmployeePage />
     </div>
   );
 }
