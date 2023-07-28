@@ -1,6 +1,10 @@
 :root {
   --placeholder-bg-color-1: gray;
   --placeholder-bg-color-2: whitesmoke;
+  --placeholder-bg-color-3: white;
+
+  --border-bold: 2px solid black;
+  --border-light: 1px solid black;
 }
 
 body {
@@ -13,9 +17,22 @@ body {
 }
 
 .App {
-  width: 600px;
+  width: 800px;
   height: 700px;
-  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
-  background-color: var(--placeholder-bg-color-1);
+  background-color: var(--placeholder-bg-color-3);
+  border: var(--border-bold);
+}
+
+.home-pg, .employee-pg {
+  width: 50%;
+  height: 100%;
+  margin: 0 5px 0 5px;
+
+  /* margin: 10px; */
+  border: var(--border-light);
 }
