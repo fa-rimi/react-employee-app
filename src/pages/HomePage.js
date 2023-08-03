@@ -7,7 +7,7 @@ function HomePage() {
   return (
 
     <div className="home-pg">
-      <Header/>
+      <Header title="Employee Directory"/>
       <SearchBar/>
       <EmployeeList/>
       {console.log("Homepage is connected")}

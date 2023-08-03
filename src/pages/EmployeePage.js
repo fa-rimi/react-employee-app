@@ -7,7 +7,7 @@ function EmployeePage() {
   return (
 
   <div className="employee-pg">
-    <Header/>
+    <Header title="Employees"/>
     <Employee/>
     {console.log("EmployeePage is connected!")}
   </div>
