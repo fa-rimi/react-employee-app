@@ -10,20 +10,4 @@ const employees = [
   { name: "Paul Jones", role: "QA Manager" },
 ];
 
-function EmployeeList() {
-  return (
-    <div className="employee-list-item">
-      {employees.map((employee, index) => (
-        <EmployeeListItem
-          key={index}
-          name={employee.name}
-          role={employee.role}
-        />
-      ))}
-      {console.log("EmployeeList generating...")}
-      {console.log(employees)}
-    </div>
-  );
-}
-
 export default EmployeeList;
