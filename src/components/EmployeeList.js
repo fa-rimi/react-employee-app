@@ -10,7 +10,6 @@ function EmployeeList() {
       <EmployeeListItem name="John Williams" role="VP of Engineering" />
       <EmployeeListItem name="Ray Moore" role="VP of Sales" />
       <EmployeeListItem name="Paul Jones" role="QA Manager" />
-      {/* <EmployeeListItem name = {employees.name} role = {employees.role} /> */}
     </div>
   );
 }
